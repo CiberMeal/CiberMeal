@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--                                                                            -->
+<!-- Licensed Materials - Use restricted, please refer to the "Samples Gallery" -->
+<!-- terms and conditions in the IBM International Program License Agreement.   -->
+<!--                                                                            -->
+<!-- Copyright IBM Corporation 2004, 2008. All Rights Reserved.                 -->
+<!--                                                                            -->
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

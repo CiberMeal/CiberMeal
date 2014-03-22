@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Plugin.name
+Bundle-SymbolicName: com.ibm.xtools.modeler.ui.pde.examples.properties;singleton:=true
+Bundle-Version: 7.0.300.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: com.ibm.xtools.modeler.ui.pde.examples.properties.PropertiesPlugin
+Bundle-Vendor: %Plugin.providerName
+Bundle-Localization: plugin
+Export-Package: com.ibm.xtools.modeler.ui.pde.examples.properties
+Require-Bundle: org.eclipse.ui;bundle-version="[3.4.0,4.0.0)",
+ org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)",
+ org.eclipse.uml2.uml;bundle-version="[3.0.0,4.0.0)",
+ org.eclipse.gmf.runtime.common.ui.services.properties;bundle-version="[1.0.0,2.0.0)",
+ com.ibm.xtools.modeler.ui;bundle-version="[7.5.0,8.0.0)"
+Eclipse-LazyStart: true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

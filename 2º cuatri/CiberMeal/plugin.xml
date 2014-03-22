@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<!--
+ Licensed Materials - Use restricted, please refer to the "Samples Gallery" terms
+ and conditions in the IBM International Program License Agreement.
+
+ Copyright IBM Corporation 2003, 2007. All Rights Reserved. 
+-->
+<plugin>
+
+     <extension
+         id="examplePropertiesProvider"
+         name="%providerName"
+         point="org.eclipse.gmf.runtime.common.ui.services.properties.propertiesProviders">
+      <PropertiesProvider
+            verifyPluginLoaded="false"
+            class="com.ibm.xtools.modeler.ui.pde.examples.properties.ExamplePropertiesProvider">
+         <Priority
+               name="Medium">
+         </Priority>
+      </PropertiesProvider>
+   </extension>
+</plugin>

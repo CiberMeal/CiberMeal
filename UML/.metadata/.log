@@ -1,0 +1,12 @@
+!SESSION 2014-04-07 16:45:36.746 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 amd64-64 jvmwa6460sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA_CMPRSS
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa4ws.product.v80.ide
+Command-line arguments:  -data C:\Users\DeekinLove\Documents\GitHub\CiberMeal\UML -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rsa4ws.product.v80.ide
+
+!ENTRY org.eclipse.ui 4 4 2014-04-07 16:45:42.103
+!MESSAGE Unable to find Action Set: com.ibm.xtools.pluglets.ui.actionSet

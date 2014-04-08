@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\DeekinLove\Dropbox\IS\2º cuatri\Entregas\08_04_2014\CiberMeal_login_secuenciasPaciente.zip"/>
+			<item value="C:\Users\DeekinLove\Dropbox\IS\2º cuatri\Entregas\08_04_2014\Guille\biblioteca.zip"/>
+			<item value="C:\Users\DeekinLove\Dropbox\IS\2º cuatri\Entregas\08_04_2014\CiberMeal_07_04_14(Ds .Actividad y Estado, Ds Secuencia  MEDICO).zip"/>
+		</list>
+	</section>
 	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>

@@ -7795,3 +7795,73 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
 	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
 	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+!SESSION 2014-04-08 22:14:07.201 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 amd64-64 jvmwa6460sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA_CMPRSS
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa4ws.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rsa4ws.product.v80.ide
+
+!ENTRY org.eclipse.gmf.runtime.common.ui.printing 4 1 2014-04-08 22:19:51.196
+!MESSAGE Failed to load DiagramPrint dll for es
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui.printing 2 5 2014-04-08 22:19:52.053
+!MESSAGE C:\Users\DeekinLove\.eclipse\ibm.software.delivery.platform_8.0.0_1655873425\configuration\org.eclipse.osgi\bundles\934\1\.cp\DiagramPrint_es.dll (C:\Users\DeekinLove\.eclipse\ibm.software.delivery.platform_8.0.0_1655873425\configuration\org.eclipse.osgi\bundles\934\1\.cp\DiagramPrint_es.dll no es una aplicación Win32 válida. )
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Users\DeekinLove\.eclipse\ibm.software.delivery.platform_8.0.0_1655873425\configuration\org.eclipse.osgi\bundles\934\1\.cp\DiagramPrint_es.dll (C:\Users\DeekinLove\.eclipse\ibm.software.delivery.platform_8.0.0_1655873425\configuration\org.eclipse.osgi\bundles\934\1\.cp\DiagramPrint_es.dll no es una aplicación Win32 válida. )
+	at java.lang.ClassLoader.loadLibraryWithPath(Unknown Source)
+	at java.lang.ClassLoader.loadLibraryWithClassLoader(Unknown Source)
+	at java.lang.System.loadLibrary(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.printing.PrintHelper.<clinit>(Unknown Source)
+	at java.lang.J9VMInternals.initializeImpl(Native Method)
+	at java.lang.J9VMInternals.initialize(Unknown Source)
+	at java.lang.Class.forNameImpl(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.printing.internal.util.SWTDiagramPrinterHelper.printWithSettings(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.printing.util.DiagramPrinterUtil.printWithSettings(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.printing.render.actions.EnhancedPrintActionHelper.doPrint(Unknown Source)
+	at com.ibm.xtools.modeler.ui.internal.providers.globalActionHandler.ModelerGlobalActionHandler.doPrint(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.printing.providers.DiagramWithPrintGlobalActionHandler.getCommand(Unknown Source)
+	at com.ibm.xtools.modeler.ui.internal.providers.globalActionHandler.ModelerGlobalActionHandler.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.global.GlobalAction.doRun(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.runWithEvent(Unknown Source)
+	at org.eclipse.jface.commands.ActionHandler.execute(Unknown Source)
+	at org.eclipse.core.commands.Command.executeWithChecks(Unknown Source)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(Unknown Source)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.handlers.SlaveHandlerService.executeCommand(Unknown Source)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.ui.menus.CommandContributionItem.access$19(Unknown Source)
+	at org.eclipse.ui.menus.CommandContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
